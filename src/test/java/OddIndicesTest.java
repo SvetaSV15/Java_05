@@ -13,7 +13,7 @@ public class OddIndicesTest {
         Assert.assertEquals(actualResult, expectedResult);
     }
 
-
+    @Test
     public void testNullArrayOddIndices() {
         int[] num = null;
         int[] expectedResult = {};
@@ -21,7 +21,7 @@ public class OddIndicesTest {
         int[] actualResult = new OddIndices().oddIndices(num);
         Assert.assertEquals(actualResult, expectedResult);
     }
-
+    @Test
     public void testEmptyArrayOddIndices() {
         int[] num = {};
         int[] expectedResult = {};
