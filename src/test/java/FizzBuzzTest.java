@@ -1,6 +1,6 @@
 import org.testng.Assert;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+import project_utils.FizzBuzz;
 
 public class FizzBuzzTest {
 
@@ -16,7 +16,7 @@ public class FizzBuzzTest {
         int start = 1;
         int end = 20;
         String[] expectedResualt = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11",
-                "Fizz", "13", "14", "FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
+                "Fizz", "13", "14", "project_utils.FizzBuzz", "16", "17", "Fizz", "19", "Buzz"};
         //act
 
         String [] actualResult = new FizzBuzz().fizzBuzz(start, end);
@@ -51,7 +51,7 @@ public class FizzBuzzTest {
         //Arrange
         int start = -20;
         int end = -1;
-        String[] expectedResualt = {"Buzz", "-19", "Fizz", "-17", "-16", "FizzBuzz", "-14", "-13", "Fizz",
+        String[] expectedResualt = {"Buzz", "-19", "Fizz", "-17", "-16", "project_utils.FizzBuzz", "-14", "-13", "Fizz",
                 "-11", "Buzz", "Fizz", "-8", "-7", "Fizz", "Buzz", "-4", "Fizz", "-2", "-1"};
         //act
 
