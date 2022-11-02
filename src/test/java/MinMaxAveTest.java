@@ -1,6 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.MinMaxAve;
 
 public class MinMaxAveTest {
 

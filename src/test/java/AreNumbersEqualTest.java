@@ -1,7 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.AreNumbersEqual;
-import project_utils.BiggerValue;
 
 public class AreNumbersEqualTest {
 

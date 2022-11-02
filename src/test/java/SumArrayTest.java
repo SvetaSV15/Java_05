@@ -1,7 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.OddIndices;
-import project_utils.SumArray;
 
 
 public class SumArrayTest {

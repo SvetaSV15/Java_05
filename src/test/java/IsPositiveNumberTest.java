@@ -1,7 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.BiggerValue;
-import project_utils.IsPositiveNumber;
 
 public class IsPositiveNumberTest {
 

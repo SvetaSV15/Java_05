@@ -1,7 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.CreateArray;
-import project_utils.ManipulationsWithArrays;
 
 public class ManipulationsWithArraysTest {
 

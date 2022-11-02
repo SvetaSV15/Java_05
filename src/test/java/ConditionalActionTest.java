@@ -1,6 +1,5 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import project_utils.ConditionalAction;
 
 public class ConditionalActionTest {
 
